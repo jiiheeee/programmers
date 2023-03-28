@@ -11,4 +11,4 @@ def solution(a, b):
     elif a==b:
         return a
 
-print(solution(5, 3))
+
