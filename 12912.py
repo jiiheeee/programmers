@@ -3,10 +3,10 @@ def solution(a, b):
     if a<b:
         for data in range(a, b+1):
             result = result + data
-            return result
+        return result
     elif a>b:
         for data in range(b, a+1):
             result = result + data
-            return result
+        return result
     elif a==b:
         return a
